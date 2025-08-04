@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class UserDivision {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the numerator (the number to be divided): ");
+        double numerator = input.nextDouble();
+
+        System.out.print("Enter the denominator (the number to divide by): ");
+        double denominator = input.nextDouble();
+
+        // Calculate the quotient
+        double quotient = numerator / denominator;
+
+        System.out.println("The result is: " + quotient);
+
+        input.close();
+    }
+}
